@@ -1,5 +1,5 @@
 var debug = true;
-export var APP_URL = "http://localhost:3000"; 
+export var APP_URL = "https://mtumrah.com"; 
 
 
 export var BACKEND_BASE_URL = "https://database.mtumrah.com";
