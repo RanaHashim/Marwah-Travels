@@ -320,7 +320,7 @@ const CustomPackageForm = () => {
         )}
         <span className=" text-white  w-full">
           {step == 1 ? (
-            <span className="bold-54 font-bold text-3xl">Enter Details </span>
+            <span className="bold-54 font-bold text-3xl">Create Custom Package</span>
           ) : (
             ""
           )}
