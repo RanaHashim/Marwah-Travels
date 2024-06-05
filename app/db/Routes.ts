@@ -7,6 +7,7 @@ export var API_BASE_URL = BACKEND_BASE_URL + "/api";
 if (debug) {
 }
 
+export const  FILE_BASE_URL  = API_BASE_URL+"/files?path="; 
 
 //panel
 export const GET_CATEGORIES = API_BASE_URL+'/panel/categories';
