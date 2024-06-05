@@ -320,7 +320,7 @@ const CustomPackageForm = () => {
         )}
         <span className=" text-white  w-full">
           {step == 1 ? (
-            <span className="bold-54 font-bold text-3xl">Create Custom Package</span>
+            <span className="bold-54 font-bold text-3xl">Enter Details </span>
           ) : (
             ""
           )}
@@ -462,7 +462,7 @@ const CustomPackageForm = () => {
           </Grid>
           <Grid item xs={12} sm={12}>
             <CustomTextFieldComponent
-              label="Comments(i.e Specify any special passport)"
+              label="Additional Comments (i.e specify if someone have special passport)"
               textColor="white"
 
               backgroundColor={transparentBlack}
