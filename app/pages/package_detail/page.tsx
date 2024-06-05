@@ -17,7 +17,7 @@ import {
 } from "@mui/icons-material";
 import { UmrahPackage } from "../../type/UmrahPackage";
 import { useState, useEffect } from "react";
-import { BACKEND_BASE_URL, GET_PACKAGES } from "../../db/Routes";
+import { BACKEND_BASE_URL,FILE_BASE_URL, GET_PACKAGES } from "../../db/Routes";
 import { ApiCallProps, makeGetCall } from "../../db/api";
 import PacksResponse from "../../type/PacksResponse";
 import Space from "@/components/Space";
@@ -131,7 +131,7 @@ export default function PackageDetail() {
                     >
                         <Slide>
                             <img
-                                src={BACKEND_BASE_URL + (packageToView.package_image ?? "")}
+                                src={FILE_BASE_URL + (packageToView.package_image ?? "")}
                                 width={720}
                                 height={300}
                                 alt={"logo"}
