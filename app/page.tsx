@@ -22,7 +22,7 @@ export default function Home() {
   }
   async function startTimer() {
     setInquiryVisibility(false);
-    await delay(20 * 1000);
+    await delay(200 * 1000);
     
     setInquiryVisibility(true);
   }
