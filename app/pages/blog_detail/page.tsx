@@ -5,7 +5,7 @@ import { transparentBlack } from "@/constants";
 import { Card, Divider } from "@mui/material";
 import { store, selectBlog } from "../../state/store";
 import BlogElement from "../../type/BlogElement";
-import { BACKEND_BASE_URL } from "../../db/Routes";
+import { BACKEND_BASE_URL,FILE_BASE_URL } from "../../db/Routes";
 import { Slide } from "react-awesome-reveal";
 import { getUserFrame } from "@/app/layout";
 
@@ -49,7 +49,7 @@ export default function BlogDetail() {
 
     }} className=" p-10" sx={{ borderRadius: 1, backgroundColor: transparentBlack }} elevation={4}>
         <Slide>
-            <img src={BACKEND_BASE_URL + blog.image ?? "/kaba_image.jpg"} width={920} height={600} alt={"logo"} className="w-full" />
+            <img src={FILE_BASE_URL + blog.image ?? "/kaba_image.jpg"} width={920} height={600} alt={"logo"} className="w-full" />
 
         </Slide>
         <Slide direction="right">
