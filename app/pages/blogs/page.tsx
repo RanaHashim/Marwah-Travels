@@ -1,6 +1,6 @@
 'use client'
 
-import { GET_BLOGS, BACKEND_BASE_URL } from "@/app/db/Routes";
+import { GET_BLOGS,FILE_BASE_URL,BACKEND_BASE_URL } from "@/app/db/Routes";
 import { ApiCallProps, makeGetCall } from "@/app/db/api";
 import { getUserFrame } from "@/app/layout";
 import { store, selectBlog } from "@/app/state/store";
@@ -114,7 +114,7 @@ export default function Blogs() {
                   elevation={4}
                 >
                   <img
-                    src={BACKEND_BASE_URL + blog.image ?? "/kaba_image.jpg"}
+                    src={FILE_BASE_URL + blog.image ?? "/kaba_image.jpg"}
                     width={720}
                     height={500}
                     alt={"logo"}
