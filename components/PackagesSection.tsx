@@ -5,7 +5,7 @@ import Image from "next/image";
 import Space from "./Space";
 import { transparentBlack } from "@/constants";
 import { useEffect, useState } from "react";
-import { BACKEND_BASE_URL,FILE_BASE_URL, GET_PACKAGES } from "@/app/db/Routes";
+import {FILE_BASE_URL, GET_PACKAGES } from "@/app/db/Routes";
 import { ApiCallProps as ApiCallProps, makeGetCall, makePostCall } from "@/app/db/api";
 import PacksResponse from "@/app/type/PacksResponse";
 import { UmrahPackage } from "@/app/type/UmrahPackage";

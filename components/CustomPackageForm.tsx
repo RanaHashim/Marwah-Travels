@@ -27,7 +27,7 @@ import {
 import CustomTextFieldComponent from "./cTF";
 import { loremIpsum, transparentBlack } from "@/constants";
 import { ApiCallProps, makeGetCall, submitCustomPackage } from "@/app/db/api";
-import { BACKEND_BASE_URL, FILE_BASE_URL, GET_HOTELS } from "@/app/db/Routes";
+import { FILE_BASE_URL, GET_HOTELS } from "@/app/db/Routes";
 import { Hotel } from "@/app/type/Hotel";
 
 import Marquee from "react-fast-marquee";
@@ -650,7 +650,7 @@ const CustomPackageForm = () => {
                             <div className="flex sm:flex-row flex-col gap-3">
                               <img
                                 className="sm:w-62 sm:h-44 rounded-xl"
-                                src={BACKEND_BASE_URL + e.image}
+                                src={FILE_BASE_URL + e.image}
                               />
                               <div className="gap-2 flex-col">
                                 <span className="sm:text-[25px] text-[20px]">

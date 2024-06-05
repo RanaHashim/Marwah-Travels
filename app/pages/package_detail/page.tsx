@@ -193,7 +193,7 @@ export default function PackageDetail() {
                                                 <img
                                                     className="rounded-xl"
                                                     src={
-                                                        BACKEND_BASE_URL + packageToView.hotel_makkah_image ??
+                                                        FILE_BASE_URL + packageToView.hotel_makkah_image ??
                                                         "" ??
                                                         ""
                                                     }
@@ -212,7 +212,7 @@ export default function PackageDetail() {
                                                 <img
                                                     className="rounded-xl"
                                                     src={
-                                                        BACKEND_BASE_URL + packageToView.hotel_madina_image ??
+                                                        FILE_BASE_URL + packageToView.hotel_madina_image ??
                                                         "" ??
                                                         ""
                                                     }
@@ -260,7 +260,7 @@ export default function PackageDetail() {
                                                 <img
                                                     className="rounded-xl"
                                                     src={
-                                                        BACKEND_BASE_URL + packageToView.trans_image ??
+                                                        FILE_BASE_URL + packageToView.trans_image ??
                                                         "" ??
                                                         ""
                                                     }
@@ -280,7 +280,7 @@ export default function PackageDetail() {
                                                 <img
                                                     className="rounded-xl"
                                                     src={
-                                                        BACKEND_BASE_URL + packageToView.visa_image ??
+                                                        FILE_BASE_URL + packageToView.visa_image ??
                                                         "" ??
                                                         ""
                                                     }
