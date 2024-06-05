@@ -421,7 +421,7 @@ const CustomPackageForm = () => {
           </Grid>
           <Grid item sm={4}>
             <CustomTextFieldComponent
-              label="Number Of Nights (In Makkah)"
+              label="No. Of Nights (In Makkah)"
               textColor="white"
               backgroundColor={transparentBlack}
               hintColor="white"
@@ -431,7 +431,7 @@ const CustomPackageForm = () => {
           </Grid>
           <Grid item sm={4}>
             <CustomTextFieldComponent
-              label="Number Of Nights (In Madinah)"
+              label="No. Of Nights (In Madinah)"
               textColor="white"
               backgroundColor={transparentBlack}
               hintColor="white"
@@ -462,7 +462,7 @@ const CustomPackageForm = () => {
           </Grid>
           <Grid item xs={12} sm={12}>
             <CustomTextFieldComponent
-              label="Additional Comments (i.e specify if someone have special passport)"
+              label="Comments (i.e any special passport?)"
               textColor="white"
 
               backgroundColor={transparentBlack}
