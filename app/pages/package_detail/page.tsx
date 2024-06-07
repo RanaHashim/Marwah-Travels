@@ -150,6 +150,11 @@ export default function PackageDetail() {
                                         {packageToView.name}
                                     </h1>
                                 </Slide>
+                                <Slide>
+                                    <h6 className="text-bold text-[36px] text-green-600 pt-1 font-bold">
+                                        {packageToView.price_double}
+                                    </h6>
+                                </Slide>
                                 <Slide direction="right">
                                     <span className="mt-2 ms-2">
                                         <p className="text-white text-md whitespace-pre-wrap leading-8">
@@ -300,9 +305,7 @@ export default function PackageDetail() {
                                                 <span className="font-bold text-[30px]">
                                                     {packageToView.visa_title}
                                                 </span>
-                                                <span className="font-bold text-green text-[30px]">
-                                                     {packageToView.price_double}
-                                                </span>
+                                                
                                                 <span className="leading-7 ps-[5px] text-[14px]">
                                                     {packageToView.visa_detail}
                                                 </span>
