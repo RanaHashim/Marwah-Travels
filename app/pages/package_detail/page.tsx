@@ -147,12 +147,12 @@ export default function PackageDetail() {
                             <div className="flex flex-col text-white">
                                 <Slide>
                                     <h1 className="text-bold text-[30px] text-white pt-1 font-bold">
-                                       USD {packageToView.name}/- Per Person
+                                       {packageToView.name}
                                     </h1>
                                 </Slide>
                                 <Slide>
                                     <h6 className="text-bold text-[36px] text-green-600 pt-1 font-bold">
-                                        {packageToView.price_double}
+                                        USD {packageToView.price_single}/- Per Person
                                     </h6>
                                 </Slide>
                                 <Slide direction="right">
