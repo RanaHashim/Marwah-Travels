@@ -123,7 +123,7 @@ export default function PackageDetail() {
 
     return getUserFrame(
         <div className="w-full flex text-white">
-             <div className="w-full  bg-black ">
+             <div className="w-full">
                     <Card
                         className="w-full  "
                         sx={{ borderRadius: 2 ,backgroundColor:transparentBlack}}
@@ -138,12 +138,12 @@ export default function PackageDetail() {
                                 className="w-full cursor-pointer"
                             />
                         </Slide>
-                        <div className=" grid sm:grid-cols-6 grid-cols-2 px-3 bg-black p-2">
+                        <div className=" grid sm:grid-cols-6 grid-cols-2 px-3 p-2">
                             {" "}
                             {...buildComponents(packageToView)}
                         </div>
 
-                        <div className="pt-4 sm:px-10 px-4 hover:cursor-pointer bg-black ">
+                        <div className="pt-4 sm:px-10 px-4 hover:cursor-pointer ">
                             <div className="flex flex-col text-white">
                                 <Slide>
                                     <h1 className="text-bold text-[36px] text-white pt-1 font-bold">
