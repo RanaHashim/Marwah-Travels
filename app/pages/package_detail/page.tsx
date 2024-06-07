@@ -152,11 +152,9 @@ export default function PackageDetail() {
                                 </Slide>
                                 <Slide>
                                     <h6 className="text-bold text-[28px] text-green-600 pt-1 font-bold">
-                                        USD {packageToView.price_single}
+                                        USD {packageToView.price_single}<span className="text-white">/- Per Person</span>
                                     </h6>
-                                    <h6 className="text-bold text-[28px] text-white pt-1 font-bold">
-                                        /- Per Person
-                                    </h6>
+                                    
                                 </Slide>
                                 <Slide direction="right">
                                     <span className="mt-2 ms-2">
