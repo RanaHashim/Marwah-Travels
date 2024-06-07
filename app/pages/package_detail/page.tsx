@@ -300,6 +300,9 @@ export default function PackageDetail() {
                                                 <span className="font-bold text-[30px]">
                                                     {packageToView.visa_title}
                                                 </span>
+                                                <span className="font-bold text-green text-[30px]">
+                                                     {packageToView.price_double}
+                                                </span>
                                                 <span className="leading-7 ps-[5px] text-[14px]">
                                                     {packageToView.visa_detail}
                                                 </span>
