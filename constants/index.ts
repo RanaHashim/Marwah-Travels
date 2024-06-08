@@ -1,7 +1,7 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Home' },
-  { href: '/pages/packages', key: 'all_packages', label: "Luxury Packages"},
+  { href: '/pages/packages', key: 'all_packages', label: "Luxury Umrah Packages"},
   { href: '/pages/blogs', key: 'blogs', label: 'Blogs' },
   { href: '/pages/testimonials', key: 'testimonials', label: 'Testimonials' },
   { href: '/pages/about', key: 'about', label: 'About Us' },
