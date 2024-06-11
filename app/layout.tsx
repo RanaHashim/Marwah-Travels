@@ -11,7 +11,7 @@ import { ReactNode } from 'react';
 
 
 export function getUserFrame(child: any) {
-  return (<body style={{ backgroundImage: "url('/images/kaba2.jpg')", backgroundSize: 'cover', backgroundAttachment: 'fixed' }} className="bg-center">
+  return (<body style={{ backgroundImage: "url('/images/kaba2.jpg')", backgroundSize: 'cover', position:'fixed' }} className="bg-center">
     <Navbar />
 
     <main className="relative overflow-hidden">
