@@ -46,6 +46,18 @@ export default function FloatingComponents() {
                 />
 
             </div>
+            <div
+                className="fixed sm:bottom-10 sm:left-5 left-2 bottom-3 shadow-lg z-40"
+
+            >
+                <img
+                                    className="flex-1 w-auto h-auto  "
+                                    width={"300"}
+                                    height={"100px"}
+                                    src={"../public/images/truspilot.png"}
+                                />
+
+            </div>
 
             <div
                 className="fixed sm:top-8 sm:right-5 top-4 right-0 shadow-sm z-40"

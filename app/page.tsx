@@ -38,9 +38,7 @@ export default function Home() {
 
 
       </Dialog>
-       <Dialog PaperProps={{ sx: { background: 'rgba(0,0,0,0)' } }} open={inquiryVisible}>
-        Trust Pilot
-      </Dialog>
+      
       <IquerySection isDialog={false} onDismiss={startTimer} />
 
       <CustomPackageSection />
