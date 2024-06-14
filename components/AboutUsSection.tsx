@@ -21,7 +21,7 @@ const AboutUsSection = () => {
           <div >
 
             <Space h={120} />
-            <h1 className="font-bold text-[30px]  mt-10 text-white">Welcome to Marwah Travels Umrah <br /> Your Offical Agent To Makkah and Madina</h1>
+            <h1 className="font-bold text-[30px]  mt-10 text-white">Welcome to Marwah Travels Umrah <br /> Your Official Agent To Makkah and Madina</h1>
             <p className="regular-16 mt-3
  text-slate-200 xl:max-w-[520px] ">
               {
