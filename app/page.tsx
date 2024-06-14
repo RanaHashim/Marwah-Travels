@@ -33,12 +33,13 @@ export default function Home() {
 
       <Hero />
 
-
-
       <Dialog PaperProps={{ sx: { background: 'rgba(0,0,0,0)' } }} open={inquiryVisible}>
         <IquerySection isDialog={true} onDismiss={startTimer} />
 
 
+      </Dialog>
+       <Dialog PaperProps={{ sx: { background: 'rgba(0,0,0,0)' } }} open={inquiryVisible}>
+        Trust Pilot
       </Dialog>
       <IquerySection isDialog={false} onDismiss={startTimer} />
 
