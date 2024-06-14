@@ -54,7 +54,7 @@ export default function FloatingComponents() {
                                     className="flex-1 w-auto h-auto  "
                                     width={"300"}
                                     height={"100px"}
-                                    src={"../public/images/truspilot.png"}
+                                    src={"/images/truspilot.png"}
                                 />
 
             </div>
