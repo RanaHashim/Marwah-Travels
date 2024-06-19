@@ -55,8 +55,7 @@ export default function FloatingComponents() {
                                     width={"300"}
                                     height={"100px"}
                                     src={"/images/truspilot.png"}
-                                    alt="Trust pilot rating"
-                                    
+
                                 />
 
             </div>
