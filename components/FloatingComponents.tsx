@@ -51,10 +51,12 @@ export default function FloatingComponents() {
 
             >
                 <img
-                                    className="flex-1 w-auto h-auto  "
+                                    className="w-auto h-auto  "
                                     width={"300"}
                                     height={"100px"}
                                     src={"/images/truspilot.png"}
+                                    alt="Trust pilot rating"
+                                    style={}
                                 />
 
             </div>
