@@ -1,11 +1,13 @@
 'use client'
-
+import Image from 'next/image';
+import useState from "react";
 import Email from "@mui/icons-material/Email";
 import Button from "./Button";
 import CallIcon from '@mui/icons-material/Call';
 import Space from "./Space";
 import { WhatsApp } from "@mui/icons-material";
 export default function FloatingComponents() {
+
 
     return (
         <div className="flex" >
@@ -50,13 +52,15 @@ export default function FloatingComponents() {
                 className="fixed sm:bottom-10 sm:left-5 left-2 bottom-3 shadow-lg z-40"
 
             >
-                <img
-                                    className="w-auto h-auto  "
-                                    width={"300"}
-                                    height={"100px"}
-                                    src={"/images/truspilot.png"}
-
-                                />
+                <Image>
+                    src={'/images/truspilot.png'}
+                    alt=""
+                    width={300}
+                    height={100}
+                    className="transition-opacity opacity-0 duration-[2s]"
+                    onLoadingComplete={(image)=>image.classList.remove("opacity-0")}
+                    
+                </Image>
 
             </div>
 
