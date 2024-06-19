@@ -33,20 +33,6 @@ export default function FloatingComponents() {
                     variant="btn_dark_green"
                 />
             </div>
-             <div
-                className="fixed sm:bottom-10 sm:left-5 left-2 bottom-3 shadow-lg z-40"
-
-            >
-                <img
-                                    className="w-auto h-auto  "
-                                    width={"300"}
-                                    height={"100px"}
-                                    src={"/images/truspilot.png"}
-                                    alt="Trust pilot rating"
-                                    style={}
-                                />
-
-            </div>
             <div
                 className="fixed sm:bottom-5 sm:left-5 left-2 bottom-3 shadow-lg z-40"
 
@@ -58,6 +44,20 @@ export default function FloatingComponents() {
                     variant="btn_green"
                    
                 />
+
+            </div>
+            <div
+                className="fixed sm:bottom-10 sm:left-5 left-2 bottom-3 shadow-lg z-40"
+
+            >
+                <img
+                                    className="w-auto h-auto  "
+                                    width={"300"}
+                                    height={"100px"}
+                                    src={"/images/truspilot.png"}
+                                    alt="Trust pilot rating"
+                                    
+                                />
 
             </div>
 
