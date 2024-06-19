@@ -33,20 +33,7 @@ export default function FloatingComponents() {
                     variant="btn_dark_green"
                 />
             </div>
-            <div
-                className="fixed sm:bottom-5 sm:left-5 left-2 bottom-3 shadow-lg z-40"
-
-            >
-                <Button
-                    onClick={() => { window.location.href = "/#customPackage"; }}
-                    type="button"
-                    title="Create Custom Package"
-                    variant="btn_green"
-                   
-                />
-
-            </div>
-            <div
+             <div
                 className="fixed sm:bottom-10 sm:left-5 left-2 bottom-3 shadow-lg z-40"
 
             >
@@ -58,6 +45,19 @@ export default function FloatingComponents() {
                                     alt="Trust pilot rating"
                                     style={}
                                 />
+
+            </div>
+            <div
+                className="fixed sm:bottom-5 sm:left-5 left-2 bottom-3 shadow-lg z-40"
+
+            >
+                <Button
+                    onClick={() => { window.location.href = "/#customPackage"; }}
+                    type="button"
+                    title="Create Custom Package"
+                    variant="btn_green"
+                   
+                />
 
             </div>
 
