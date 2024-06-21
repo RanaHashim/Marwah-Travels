@@ -40,7 +40,7 @@ export default function OurTestimonials() {
 
             <div className="sm:px-10 flex sm:flex-row flex-col gap-2 items-center justify-center">
                 {reviews?.slice(0,3)?.map((e) => (
-                    <div className="flex  flex-col rounded-xl w-80   bg-white p-3">
+                    <div className="flex  flex-col rounded-xl w-80   bg-black/20 p-3">
                         <ReactPlayer
                             width={300}
 
