@@ -97,7 +97,7 @@ const InquiryForm = () => {
 
 
 
-    <div className='w-full  '>
+    <div className='w-full overflow-visible'>
 
       <Grid container spacing={2} >
         {/* 1 */}
