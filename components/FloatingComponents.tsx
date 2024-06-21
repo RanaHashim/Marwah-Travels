@@ -49,7 +49,7 @@ export default function FloatingComponents() {
 
             </div>
             <div
-                className="fixed sm:bottom-2/4 bottom-2/4 shadow-lg z-40 w-64 h-64  transition-all duration-100  ease-in hover:w-200 overflow-hidden"
+                className="fixed sm:bottom-2/4 bottom-2/4 shadow-lg z-40"
 
             >
                 <Image
@@ -58,9 +58,9 @@ export default function FloatingComponents() {
                     width={200}
                     height={48}
                     quality={80}
-                    
-                    className={"transition-opacity opacity-0 duration-[2s]"}
-                    onLoadingComplete={(image)=>image.classList.remove("opacity-0")}
+                    className={"w-64  transition-[width] duration-100  ease-out hover:w-200"}
+                    // className={"transition-opacity opacity-0 duration-[2s]"}
+                    // onLoadingComplete={(image)=>image.classList.remove("opacity-0")}
                 />
 
             </div>
