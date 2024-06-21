@@ -49,7 +49,7 @@ export default function FloatingComponents() {
 
             </div>
             <div
-                className="fixed sm:bottom-20 sm:left-5 left-2 bottom-20 shadow-lg z-40"
+                className="fixed animate-bounce sm:bottom-20 sm:left-5 left-2 bottom-20 shadow-lg z-40"
 
             >
                 <Image
