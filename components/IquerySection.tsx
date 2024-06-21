@@ -14,7 +14,7 @@ export default function IquerySection({isDialog,onDismiss}:InquerySectionProps) 
 
 
     return (
-        <div id='inquiry' className="flexBetween">
+        <div id='inquiry' className="flexBetween overflow-hidden">
             <Slide className="sm:px-20 px-5 sm:py-10 py-5">
                 <div className="px-6 py-6 rounded-3xl" style={{ backgroundColor: transparentBlack }}>
                     <InquiryForm />
