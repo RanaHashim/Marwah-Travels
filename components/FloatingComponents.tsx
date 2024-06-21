@@ -56,7 +56,7 @@ export default function FloatingComponents() {
                     
                     src={'/images/truspilot.png'}
                     alt=""
-                    width={200}
+                    width={250}
                     height={100}
                     quality={80}
                     className={"transition-opacity opacity-0 duration-[2s]"}
