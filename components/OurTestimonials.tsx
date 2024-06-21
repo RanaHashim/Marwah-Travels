@@ -40,16 +40,16 @@ export default function OurTestimonials() {
 
             <div className="sm:px-10 flex sm:flex-row flex-col gap-2 items-center justify-center">
                 {reviews?.slice(0,3)?.map((e) => (
-                    <div className="flex  flex-col rounded-xl w-80   bg-black/20 p-3">
+                    <div className="flex  flex-col rounded-xl w-80   bg-black/60 p-3">
                         <ReactPlayer
                             width={300}
-
+                            
                             style={{ borderRadius: 10 }}
                             height={200}
                             url={FILE_BASE_URL + e.video_url}
                             controls
                         />
-                        <span className="font-bold mt-2">{e.user_name}</span>
+                        <span className="font-bold mt-2 text-white">{e.user_name}</span>
                         <div className="w-36">
                             <Star fontSize="medium" htmlColor="orange" />
                             <Star fontSize="medium" htmlColor="orange" />
@@ -57,7 +57,7 @@ export default function OurTestimonials() {
                             <Star fontSize="medium" htmlColor="orange" />
                             <Star fontSize="medium" htmlColor="orange" />
                         </div>
-                        <Marquee pauseOnClick className="mt-1">
+                        <Marquee pauseOnClick className="mt-1 text-white">
                             <span>{e.detail}</span>
                         </Marquee>
 
