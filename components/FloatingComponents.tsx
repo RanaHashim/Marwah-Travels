@@ -53,12 +53,10 @@ export default function FloatingComponents() {
 
             >
                 <Image
-                    
                     src={'/images/truspilot.png'}
                     alt=""
                     width={250}
                     height={100}
-                    quality={80}
                     className={"transition-opacity opacity-0 duration-[2s]"}
                     onLoadingComplete={(image)=>image.classList.remove("opacity-0")}
                 />
@@ -72,7 +70,6 @@ export default function FloatingComponents() {
 
                 <Button
                     onClick={() => { window.location.href = "https://api.whatsapp.com/send?phone="+"+16463599313"+"&text=*Salam*!%0AI%20would%20like%20to%20know%20about%20umrah%20packages"; }}
-
                     type="button"
                     child={<WhatsApp/>}
                     variant="btn_white"
