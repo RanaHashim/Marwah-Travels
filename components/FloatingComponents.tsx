@@ -56,9 +56,9 @@ export default function FloatingComponents() {
                     
                     src={'/images/truspilot.png'}
                     alt=""
-                    width={300}
+                    width={200}
                     height={100}
-                    quality={100}
+                    quality={80}
                     className={"transition-opacity opacity-0 duration-[2s]"}
                     onLoadingComplete={(image)=>image.classList.remove("opacity-0")}
                 />
