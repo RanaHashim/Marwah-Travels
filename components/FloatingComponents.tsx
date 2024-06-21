@@ -57,8 +57,8 @@ export default function FloatingComponents() {
                     alt=""
                     width={250}
                     height={100}
-                    className={"transition-opacity opacity-0 duration-[2s]"}
-                    onLoadingComplete={(image)=>image.classList.remove("opacity-0")}
+                    className={"transition-[width] ease-linear duration-[2s]"}
+                    onLoadingComplete={(image)=>image.classList.remove("")}
                 />
 
             </div>
