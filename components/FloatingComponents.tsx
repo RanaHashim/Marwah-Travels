@@ -52,14 +52,13 @@ export default function FloatingComponents() {
                 className="fixed sm:bottom-2/4 bottom-2/4 shadow-lg z-40"
 
             >
-            <a>
+            <a className='w-64  transition-[width] duration-100  ease-out hover:w-200'>
                 <Image
                     src={'/images/truspilot.png'}
                     alt=""
                     width={200}
                     height={48}
                     quality={80}
-                    className={"w-64  transition-[width] duration-100  ease-out hover:w-200"}
                     // className={"transition-opacity opacity-0 duration-[2s]"}
                     // onLoadingComplete={(image)=>image.classList.remove("opacity-0")}
                 />
