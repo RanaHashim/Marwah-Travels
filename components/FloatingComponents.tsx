@@ -52,6 +52,7 @@ export default function FloatingComponents() {
                 className="fixed sm:bottom-2/4 bottom-2/4 shadow-lg z-40"
 
             >
+            <a>
                 <Image
                     src={'/images/truspilot.png'}
                     alt=""
@@ -62,7 +63,7 @@ export default function FloatingComponents() {
                     // className={"transition-opacity opacity-0 duration-[2s]"}
                     // onLoadingComplete={(image)=>image.classList.remove("opacity-0")}
                 />
-
+            </a>
             </div>
 
             <div
