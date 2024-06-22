@@ -52,7 +52,7 @@ export default function FloatingComponents() {
                 className="fixed sm:bottom-2/4 bottom-2/4 shadow-lg z-40"
 
             >
-            <a className='w-64  transition-[width] duration-100  ease-out hover:w-200'>
+            <a className='w-40  transition-[width] duration-300  reveal hover:w-250 overflow-hidden'>
                 <Image
                     src={'/images/truspilot.png'}
                     alt=""
