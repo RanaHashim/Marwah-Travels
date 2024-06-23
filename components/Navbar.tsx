@@ -22,7 +22,7 @@ const Navbar = () => {
       </Link>
       
 
-      <ul className=" h-full sm:gap-12 gap-1 flex sm:flex-row flex-col sm:items-center ">
+      <ul className="hidden md:block h-full sm:gap-12 gap-1 flex sm:flex-row flex-col sm:items-center ">
         {NAV_LINKS.map((link) => (
           <Link onClick={()=>location.href = link.href} href={link.href} key={link.key} className=" text-slate-200  cursor-pointer sm:pb-1.5 transition-all hover:font-bold">
             {link.label}
