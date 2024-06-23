@@ -24,7 +24,7 @@ const Navbar = () => {
       <Image
                     src={'/images/truspilot.png'}
                     alt=""
-                    width={100}
+                    width={150}
                     height={48}
                     quality={80}
                     className={''}
