@@ -39,7 +39,7 @@ export const FEATURES = [
       'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
   },
   // {
-  //   title: 'Many new Packages Every Month',
+  //   title: 'Trust Pilot Rating',
   //   icon: '/location.svg',
   //   variant: 'orange',
   //   description:
