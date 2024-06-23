@@ -154,7 +154,7 @@ export default function PackageDetail() {
                                 <Slide direction="right">
                                     <span className="mt-2 ms-2">
                                         <strong>
-                                        <p className="text-white text-md whitespace-pre-wrap leading-8">
+                                        <p className="text-green-600 text-md whitespace-pre-wrap leading-8">
                                             ${packageToView.price_single}/-<span className="text-white">  Single</span>
                                         </p>
                                         </strong>
@@ -163,7 +163,7 @@ export default function PackageDetail() {
                                 <Slide direction="right">
                                     <span className="mt-2 ms-2">
                                         <strong>
-                                        <p className="text-white text-md whitespace-pre-wrap leading-8">
+                                        <p className="text-green-600 text-md whitespace-pre-wrap leading-8">
                                             ${packageToView.price_double}/-<span className="text-white"> Double</span>
                                         </p>
                                         </strong>
@@ -172,7 +172,7 @@ export default function PackageDetail() {
                                 <Slide direction="right">
                                     <span className="mt-2 ms-2">
                                         <strong>
-                                        <p className="text-white text-md whitespace-pre-wrap leading-8">
+                                        <p className="text-green-600 text-md whitespace-pre-wrap leading-8">
                                             $ {packageToView.price_tripple}/-<span className="text-white"> Tripple</span>
                                         </p>
                                         </strong>
@@ -181,7 +181,7 @@ export default function PackageDetail() {
                                 <Slide direction="right">
                                     <span className="mt-2 ms-2">
                                         <strong>
-                                        <p className="text-white text-md whitespace-pre-wrap leading-8">
+                                        <p className="text-green-600 text-md whitespace-pre-wrap leading-8">
                                             $ {packageToView.price_quad}/-<span className="text-white"> Quad</span>
                                         </p>
                                         </strong>
