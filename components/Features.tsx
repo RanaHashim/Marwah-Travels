@@ -32,6 +32,16 @@ const Features = () => {
                 description={feature.description}
               />
             ))}
+            <Image
+                    src={'/images/truspilot.png'}
+                    alt=""
+                    width={200}
+                    height={48}
+                    quality={80}
+                    className={'w-40 hover:w-300'}
+                    // className={"transition-opacity opacity-0 duration-[2s]"}
+                    // onLoadingComplete={(image)=>image.classList.remove("opacity-0")}
+                />
           </ul>
         </div>
       </div>
