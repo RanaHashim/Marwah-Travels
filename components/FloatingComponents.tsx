@@ -48,10 +48,7 @@ export default function FloatingComponents() {
                 />
 
             </div>
-            <div
-                className="fixed sm:bottom-2/4 bottom-2/4 shadow-lg z-40"
-
-            >
+            <div className="fixed sm:bottom-2/4 bottom-2/4 shadow-lg z-40" >
             
             </div>
 
