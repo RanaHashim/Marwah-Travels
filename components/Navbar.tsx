@@ -21,7 +21,7 @@ const Navbar = () => {
         {/* <span className="text-white text-3xl font-bold">Marwah Travels</span> */}
       </Link>
       
-
+      <div className="hidden md:block">
       <ul className=" h-full sm:gap-12 gap-1 flex sm:flex-row flex-col sm:items-center ">
         {NAV_LINKS.map((link) => (
           <Link onClick={()=>location.href = link.href} href={link.href} key={link.key} className=" text-slate-200  cursor-pointer sm:pb-1.5 transition-all hover:font-bold">
@@ -29,6 +29,7 @@ const Navbar = () => {
           </Link>
         ))}
       </ul>
+      </div>
       <a href="https://www.trustpilot.com/review/mtumrah.com" target="_blank">
       <Image
                     src={'/images/truspilot.png'}
