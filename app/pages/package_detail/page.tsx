@@ -161,7 +161,7 @@ export default function PackageDetail() {
                                     </span>
                                 </Slide>
                                 <Slide direction="right">
-                                    <span className="mt-2 ms-2">
+                                    <span>
                                         <strong>
                                         <p className="text-green-600 text-md whitespace-pre-wrap leading-8">
                                             ${packageToView.price_double}/-<span className="text-white"> Double</span>
@@ -170,7 +170,7 @@ export default function PackageDetail() {
                                     </span>
                                 </Slide>
                                 <Slide direction="right">
-                                    <span className="mt-2 ms-2">
+                                    <span>
                                         <strong>
                                         <p className="text-green-600 text-md whitespace-pre-wrap leading-8">
                                             $ {packageToView.price_tripple}/-<span className="text-white"> Tripple</span>
@@ -179,7 +179,7 @@ export default function PackageDetail() {
                                     </span>
                                 </Slide>
                                 <Slide direction="right">
-                                    <span className="mt-2 ms-2">
+                                    <span >
                                         <strong>
                                         <p className="text-green-600 text-md whitespace-pre-wrap leading-8">
                                             $ {packageToView.price_quad}/-<span className="text-white"> Quad</span>
