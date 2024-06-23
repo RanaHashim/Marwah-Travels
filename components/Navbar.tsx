@@ -21,6 +21,7 @@ const Navbar = () => {
           </Link>
         ))}
       </ul>
+      <a href="https://www.trustpilot.com/review/mtumrah.com">
       <Image
                     src={'/images/truspilot.png'}
                     alt=""
@@ -31,7 +32,7 @@ const Navbar = () => {
                     // className={"transition-opacity opacity-0 duration-[2s]"}
                     // onLoadingComplete={(image)=>image.classList.remove("opacity-0")}
                 />
-
+      </a>
 
       {/* <div className="lg:flexCenter hidden">
         <ul className="regular-14 flex gap-4 text-white me-16">
