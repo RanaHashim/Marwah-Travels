@@ -21,7 +21,7 @@ const Navbar = () => {
           </Link>
         ))}
       </ul>
-      <a href="https://www.trustpilot.com/review/mtumrah.com">
+      <a href="https://www.trustpilot.com/review/mtumrah.com" target="_blank">
       <Image
                     src={'/images/truspilot.png'}
                     alt=""
