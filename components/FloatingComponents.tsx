@@ -52,18 +52,7 @@ export default function FloatingComponents() {
                 className="fixed sm:bottom-2/4 bottom-2/4 shadow-lg z-40"
 
             >
-            <a href="https://www.trustpilot.com/review/mtumrah.com" target="_blank">
-                <Image
-                    src={'/images/truspilot.png'}
-                    alt=""
-                    width={150}
-                    height={48}
-                    quality={80}
-                    className={''}
-                    // className={"transition-opacity opacity-0 duration-[2s]"}
-                    // onLoadingComplete={(image)=>image.classList.remove("opacity-0")}
-                />
-            </a>
+            
             </div>
 
             <div
