@@ -12,6 +12,7 @@ const Navbar = () => {
         <img src="/logo2.png" alt="logo" width={120} height={19} />
         {/* <span className="text-white text-3xl font-bold">Marwah Travels</span> */}
       </Link>
+      
 
       <ul className=" h-full sm:gap-12 gap-1 flex sm:flex-row flex-col sm:items-center ">
         {NAV_LINKS.map((link) => (
@@ -20,6 +21,16 @@ const Navbar = () => {
           </Link>
         ))}
       </ul>
+      <Image
+                    src={'/images/truspilot.png'}
+                    alt=""
+                    width={100}
+                    height={48}
+                    quality={80}
+                    className={''}
+                    // className={"transition-opacity opacity-0 duration-[2s]"}
+                    // onLoadingComplete={(image)=>image.classList.remove("opacity-0")}
+                />
 
 
       {/* <div className="lg:flexCenter hidden">
@@ -41,6 +52,7 @@ const Navbar = () => {
         className="inline-block cursor-pointer lg:hidden"
       /> */}
     </nav>
+    
   )
 }
 
