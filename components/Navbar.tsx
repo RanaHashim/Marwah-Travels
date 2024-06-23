@@ -60,7 +60,7 @@ const Navbar = () => {
         height={32}
         className="inline-block cursor-pointer lg:hidden"
       /> */}
-      <div className="md:hidden flex">
+      <div className="md:hidden flex items-center">
         <button
         className="inline-flex items-center justify-center p-2 rounded-md text-white 
         hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
@@ -92,7 +92,7 @@ const Navbar = () => {
             strokeLinejoin="round"
             strokeWidth={2}
             d="M4 6h16M4 12h16m-7 6h7"
-            />
+           />
           </svg>
         }
         </button>
