@@ -2,7 +2,7 @@
 import { NAV_LINKS, SOCIALS } from "@/constants"
 import Image from "next/image"
 import Link from "next/link"
-import React,{ useState } from "react";
+import { useState } from "react";
 const Navbar = () => {
   const [isClick,setisClick]=useState(false);
   const toggleNavbar=()=>{
@@ -15,14 +15,14 @@ const Navbar = () => {
     return url.includes(link);
   }
   return (
-    <nav className="fixed flex sm:items-center sm:flex-row flex-col sm:gap-20 gap-5 bg-black/30 max-container padding-container relative z-30 py-5">
+    <nav className=" flex sm:items-center sm:flex-row flex-col sm:gap-20 gap-5 bg-black/30 max-container padding-container relative z-30 py-5">
       <Link href="/">
         <img src="/logo2.png" alt="logo" width={120} height={19} />
         {/* <span className="text-white text-3xl font-bold">Marwah Travels</span> */}
       </Link>
       
 
-      <ul className="hidden md:block h-full sm:gap-12 gap-1 flex sm:flex-row flex-col sm:items-center ">
+      <ul className=" h-full sm:gap-12 gap-1 flex sm:flex-row flex-col sm:items-center ">
         {NAV_LINKS.map((link) => (
           <Link onClick={()=>location.href = link.href} href={link.href} key={link.key} className=" text-slate-200  cursor-pointer sm:pb-1.5 transition-all hover:font-bold">
             {link.label}
@@ -60,7 +60,7 @@ const Navbar = () => {
         height={32}
         className="inline-block cursor-pointer lg:hidden"
       /> */}
-      <div className="md:hidden flex items-center">
+      <div className="md:hidden flex">
         <button
         className="inline-flex items-center justify-center p-2 rounded-md text-white 
         hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
