@@ -38,13 +38,13 @@ export const FEATURES = [
     description:
       'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
   },
-  {
-    title: 'Many new Packages Every Month',
-    icon: '/location.svg',
-    variant: 'orange',
-    description:
-      'Lots of new packages are being uploaded every month, because we have a worldwide community of climbers who share their best experiences with climbing',
-  },
+  // {
+  //   title: 'Many new Packages Every Month',
+  //   icon: '/location.svg',
+  //   variant: 'orange',
+  //   description:
+  //     'Lots of new packages are being uploaded every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+  // },
 ];
 
 // FOOTER SECTION
