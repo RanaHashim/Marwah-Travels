@@ -184,7 +184,7 @@ export default function PackagesSection() {
                                                     {pack.name}
                                                 </h1>
                                                 <span className="mt-1">
-                                                    <strong className="text-green-600 text-xl">{pack.currency + pack.price_single}/-</strong> Per Person
+                                                    <strong className="text-green-600 text-xl">$ {pack.price_quad}/-</strong> Per Person
                                                 </span>
 
                                                 <Divider />
