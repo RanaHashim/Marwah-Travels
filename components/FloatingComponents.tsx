@@ -39,7 +39,7 @@ export default function FloatingComponents() {
 
             >
                <Image
-                src="../public/images/trustpilot_star.png"
+                src="images/trustpilot_star.png"
                 width={100}
                 height={100}
                 alt="TrustPilot rating"
