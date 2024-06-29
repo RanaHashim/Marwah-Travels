@@ -30,10 +30,21 @@ export default function FloatingComponents() {
                     type="button"
                     onClick={() => { window.location.href = "/#inquiry"; }}
 
-
                     child={<Email />}
                     variant="btn_dark_green"
                 />
+            </div>
+            <div
+                className="fixed sm:bottom-15 sm:left-5 left-2 bottom-15 shadow-lg z-40"
+
+            >
+               <Image
+                src="../public/images/trustpilot_star.png"
+                width={50}
+                height={50}
+                alt="TrustPilot rating"
+    />
+
             </div>
             <div
                 className="fixed sm:bottom-5 sm:left-5 left-2 bottom-3 shadow-lg z-40"
