@@ -34,7 +34,8 @@ export default function FloatingComponents() {
                     variant="btn_dark_green"
                 />
             </div>
-            <div
+            <div className="bg-[url('/images/trustpilot_star.png')] hover:bg-[url('/images/trustpilot_rating.jpeg')] bg-cover w-50 h-50"></div>
+            {/* <div
                 className="fixed sm:bottom-60 sm:left-5 left-2 bottom-60 shadow-lg z-40"
 
             >
@@ -45,7 +46,7 @@ export default function FloatingComponents() {
                 alt="TrustPilot rating"
     />
 
-            </div>
+            </div> */}
             <div
                 className="fixed sm:bottom-5 sm:left-5 left-2 bottom-3 shadow-lg z-40"
 
