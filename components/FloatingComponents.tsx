@@ -34,7 +34,7 @@ export default function FloatingComponents() {
                     variant="btn_dark_green"
                 />
             </div>
-            <div className="bg-[url('/images/trustpilot_star.png')] hover:bg-[url('/images/trustpilot_rating.jpeg')] bg-cover w-50 h-50"></div>
+            <div className="fixed sm:bottom-60 sm:left-5 left-2 bottom-60 shadow-lg z-40 bg-[url('/images/trustpilot_star.png')] hover:bg-[url('/images/trustpilot_rating.jpeg')] bg-cover w-50 h-50"></div>
             {/* <div
                 className="fixed sm:bottom-60 sm:left-5 left-2 bottom-60 shadow-lg z-40"
 
