@@ -35,13 +35,13 @@ export default function FloatingComponents() {
                 />
             </div>
             <div
-                className="fixed sm:bottom-40 sm:left-5 left-2 bottom-40 shadow-lg z-40"
+                className="fixed sm:bottom-60 sm:left-5 left-2 bottom-60 shadow-lg z-40"
 
             >
                <Image
                 src="/images/trustpilot_star.png"
-                width={70}
-                height={70}
+                width={50}
+                height={50}
                 alt="TrustPilot rating"
     />
 
