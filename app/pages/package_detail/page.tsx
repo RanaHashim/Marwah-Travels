@@ -152,10 +152,10 @@ export default function PackageDetail() {
                                 </Slide>
                                 
                                 <Slide direction="right">
-                                    <span className="mt-2 ms-2">
+                                    <span>
                                         <strong>
                                         <p className="text-green-600 text-md whitespace-pre-wrap leading-8">
-                                            ${packageToView.price_single}/-<span className="text-white">  Single</span>
+                                            <span className="text-white">Double: </span>${packageToView.price_double}/-
                                         </p>
                                         </strong>
                                     </span>
@@ -164,16 +164,7 @@ export default function PackageDetail() {
                                     <span>
                                         <strong>
                                         <p className="text-green-600 text-md whitespace-pre-wrap leading-8">
-                                            ${packageToView.price_double}/-<span className="text-white"> Double</span>
-                                        </p>
-                                        </strong>
-                                    </span>
-                                </Slide>
-                                <Slide direction="right">
-                                    <span>
-                                        <strong>
-                                        <p className="text-green-600 text-md whitespace-pre-wrap leading-8">
-                                            $ {packageToView.price_tripple}/-<span className="text-white"> Tripple</span>
+                                            <span className="text-white">Tripple: </span>${packageToView.price_tripple}/-
                                         </p>
                                         </strong>
                                     </span>
@@ -182,7 +173,7 @@ export default function PackageDetail() {
                                     <span >
                                         <strong>
                                         <p className="text-green-600 text-md whitespace-pre-wrap leading-8">
-                                            $ {packageToView.price_quad}/-<span className="text-white"> Quad</span>
+                                            <span className="text-white">Quad: </span>${packageToView.price_quad}/-
                                         </p>
                                         </strong>
                                     </span>
