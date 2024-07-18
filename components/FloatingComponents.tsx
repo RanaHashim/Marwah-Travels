@@ -16,7 +16,7 @@ export default function FloatingComponents() {
 
             >
                 <Button
-                    onClick={() => { window.location.href = "tel:+16463599313"; }}
+                    onClick={() => { window.location.href = "tel:+16466999732"; }}
 
 
                     type="button"
@@ -69,7 +69,7 @@ export default function FloatingComponents() {
             >
 
                 <Button
-                    onClick={() => { window.location.href = "https://api.whatsapp.com/send?phone="+"+16463599313"+"&text=*Salam*!%0AI%20would%20like%20to%20know%20about%20umrah%20packages"; }}
+                    onClick={() => { window.location.href = "https://api.whatsapp.com/send?phone="+"+19174152083"+"&text=*Salam*!%0AI%20would%20like%20to%20know%20about%20umrah%20packages"; }}
                     type="button"
                     child={<WhatsApp/>}
                     variant="btn_white"
