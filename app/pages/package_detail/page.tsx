@@ -348,7 +348,7 @@ export default function PackageDetail() {
                                 <div className="flexBetween mx-2 pb-10 text-white">
                                     <div
                                         onClick={() =>
-                                            window.open("tel:+" + packageToView.whatsapp, "_blank")
+                                            window.open("tel:+" + packageToView.phone, "_blank")
                                         }
                                         className="hover:bg-green-700 bg-green-600 cursor-pointer  hover:shadow-3xl  p-3 rounded-full shadow-sm"
                                     >
