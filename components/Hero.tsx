@@ -22,7 +22,7 @@ const Hero = () => {
             <p className="regular-16 sm:mt-3 mt-1
               text-slate-200 xl:max-w-[520px]">
               {
-                "Comintment over anything"
+                "Commitment over anything"
               } </p>
    
 

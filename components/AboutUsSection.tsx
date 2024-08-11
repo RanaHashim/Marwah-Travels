@@ -25,7 +25,7 @@ const AboutUsSection = () => {
             <p className="regular-16 mt-3
  text-slate-200 xl:max-w-[520px] ">
               {
-                "Comintment over anything"
+                "Commitment over anything"
               } </p>
 {/* 
             <div className="my-11 flex flex-wrap gap-5">

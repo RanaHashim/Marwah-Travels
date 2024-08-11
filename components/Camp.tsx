@@ -74,7 +74,7 @@ const Camp = () => {
               <strong>Welcome</strong> to Marwah Travels
             </h2>
             <p className="regular-14 xl:regular-16 mt-5 text-white">
-              Comintment over anything
+              Commitment over anything
             </p>
             <img
               src="/quote.svg"
