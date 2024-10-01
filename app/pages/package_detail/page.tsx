@@ -285,9 +285,8 @@ export default function PackageDetail() {
                                                 <img
                                                     className="rounded-xl"
                                                     src={
-                                                        FILE_BASE_URL + packageToView.trans_image ??
-                                                        "" ??
-                                                        ""
+                                                        FILE_BASE_URL + packageToView.trans_image
+                                                        
                                                     }
                                                     alt="Data Image"
                                                     width={400}
@@ -305,9 +304,8 @@ export default function PackageDetail() {
                                                 <img
                                                     className="rounded-xl"
                                                     src={
-                                                        FILE_BASE_URL + packageToView.visa_image ??
-                                                        "" ??
-                                                        ""
+                                                        FILE_BASE_URL + packageToView.visa_image
+                                                       
                                                     }
                                                     alt="Data Image"
                                                     width={400}
