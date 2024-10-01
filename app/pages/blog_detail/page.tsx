@@ -49,7 +49,7 @@ export default function BlogDetail() {
 
     }} className=" p-10" sx={{ borderRadius: 1, backgroundColor: transparentBlack }} elevation={4}>
         <Slide>
-            <img src={FILE_BASE_URL + blog.image ?? "/kaba_image.jpg"} width={920} height={600} alt={"logo"} className="w-full" />
+            <img src={FILE_BASE_URL + blog.image ?? "/kaba1.jpg"} width={920} height={600} alt={"logo"} className="w-full" />
 
         </Slide>
         <Slide direction="right">
