@@ -29,14 +29,14 @@ export const FEATURES = [
     icon: '/calendar.svg',
     variant: 'green',
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Marwah Travels. That way, there's no more discussion",
+      " Plan your perfect getaway with ease. From flights and accommodations to tours and activities, organize your trip seamlessly.",
   },
   {
     title: 'Support',
     icon: '/tech.svg',
     variant: 'green',
     description:
-      'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+      'Available 24/7 to assist with bookings, travel advice, and any issues, ensuring a smooth, worry-free trip.',
   },
   // {
   //   title: 'Trust Pilot Rating',
