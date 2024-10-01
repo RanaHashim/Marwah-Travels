@@ -1,4 +1,4 @@
-import { BACKEND_BASE_URL, GET_BLOGS, GET_DELETE_BLOG, GET_DELETE_INQUIRY, GET_DELETE_PACKAGE } from "@/app/db/Routes";
+import { BACKEND_BASE_URL,FILE_BASE_URL, GET_BLOGS, GET_DELETE_BLOG, GET_DELETE_INQUIRY, GET_DELETE_PACKAGE } from "@/app/db/Routes";
 import { ApiCallProps, createBlog, makeGetCall, updateBlogCloud } from "@/app/db/api";
 import { Blog } from "@/app/type/Blog";
 import BlogElement from "@/app/type/BlogElement";
@@ -338,7 +338,7 @@ export function BlogsTab() {
                   {inquiry.created_at.replace('T', ' ').split('.')[0]}
                 </h1>
 
-                <img alt="blog image" className="h-48" src={BACKEND_BASE_URL + inquiry.image ?? "/kaba1.jpg"} width={200} height={300} />
+                <img alt="blog image" className="h-48" src={FILE_BASE_URL + inquiry.image ?? "/kaba_image.jpg"} width={200} height={300} />
 
 
                 <h1 className="w-full text-center text-[13px] font-bold text-black mt-2">
