@@ -62,7 +62,7 @@ export const FOOTER_LINKS = [
   },
   {
     title: 'Our Community',
-    links: [ 'Hiking Marwah Travels', 'Marwah Travels kinthill'],
+    links: [ 'Marwah Travels Blogs'],
   },
 ];
 
