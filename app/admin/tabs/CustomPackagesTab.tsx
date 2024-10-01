@@ -203,7 +203,7 @@ export function CustomPackagesTab() {
                   <img
                     alt="CustomPackage image"
                     className=" w-full rounded-xl"
-                    src={BACKEND_BASE_URL + pack.signature_image_url ?? "/kaba_image.jpg"}
+                    // src={BACKEND_BASE_URL + pack.signature_image_url ?? "/kaba_image.jpg"}
                     width={200}
                     height={300}
                   />
