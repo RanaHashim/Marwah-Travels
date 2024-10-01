@@ -22,7 +22,7 @@ export const FEATURES = [
     icon: '/map.svg',
     variant: 'green',
     description:
-      'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+      'Stay updated with live location tracking of your trips. Our advanced technology ensures you can monitor your journey in real-time, providing peace of mind and enhancing your travel experience.',
   },
   {
     title: 'Schedule',
