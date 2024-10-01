@@ -338,7 +338,7 @@ export function BlogsTab() {
                   {inquiry.created_at.replace('T', ' ').split('.')[0]}
                 </h1>
 
-                <img alt="blog image" className="h-48" src={BACKEND_BASE_URL + inquiry.image ?? "/kaba_image.jpg"} width={200} height={300} />
+                <img alt="blog image" className="h-48" src={BACKEND_BASE_URL + inquiry.image ?? "/kaba1.jpg"} width={200} height={300} />
 
 
                 <h1 className="w-full text-center text-[13px] font-bold text-black mt-2">

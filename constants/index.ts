@@ -29,7 +29,7 @@ export const FEATURES = [
     icon: '/calendar.svg',
     variant: 'green',
     description:
-      " Plan your perfect getaway with ease. From flights and accommodations to tours and activities, organize your trip seamlessly.",
+      "Plan your perfect getaway with ease. From flights and accommodations to tours and activities, organize your trip seamlessly.",
   },
   {
     title: 'Support',
