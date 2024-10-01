@@ -113,13 +113,13 @@ export default function Blogs() {
                   sx={{ borderRadius: 1, backgroundColor: transparentBlack }}
                   elevation={4}
                 >
-                  <img
+                  {/* <img
                     src={FILE_BASE_URL + blog.image ?? "/kaba_image.jpg"}
                     width={720}
                     height={500}
                     alt={"logo"}
                     className="w-full h-68"
-                  />
+                  /> */}
 
                   <div className="px-4   ">
                     <div className="flex flex-col">
