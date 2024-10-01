@@ -239,8 +239,7 @@ export default function PackageDetail() {
                                                 <img
                                                     className="rounded-xl"
                                                     src={
-                                                        FILE_BASE_URL + packageToView.hotel_madina_image ??
-                                                        ""
+                                                        FILE_BASE_URL + packageToView.hotel_madina_image
                                                     }
                                                     alt="Data Image"
                                                     width={400}
