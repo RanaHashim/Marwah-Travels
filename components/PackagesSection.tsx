@@ -176,7 +176,7 @@ export default function PackagesSection() {
                                       }}
 
                                     className="hover:border-white hover:border-2 hover:shadow-white hover:shadow-xl" sx={{ backgroundColor: 'white', borderRadius: 2 }} elevation={4}>
-                                        {/* <img src={FILE_BASE_URL + pack.package_image ?? "/kaba_image.jpg"} width={720} height={300} alt={"logo"} className="w-full h-36" /> */}
+                                        <img src={FILE_BASE_URL +( pack.package_image ?? "/kaba_image.jpg")} width={720} height={300} alt={"logo"} className="w-full h-36" />
 
                                         <div className="p-4 hover:cursor-pointer ">
                                             <div className="flex flex-col">
