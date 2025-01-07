@@ -55,6 +55,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="en">
     
      <title>Umrah Travels</title>
+     <meta name="description" content="Umrah Travel Packages"/>
           {children}
        
        
