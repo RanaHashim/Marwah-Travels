@@ -54,7 +54,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" title="umrah travels">
     
-     
+     <title>Umrah Travels</title>
     
           {children}
        
