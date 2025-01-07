@@ -52,7 +52,7 @@ export function getAdminFrame(child: any) {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en" title="umrah travels">
+    <html lang="en">
     
      <title>Umrah Travels</title>
     
