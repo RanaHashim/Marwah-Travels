@@ -69,7 +69,7 @@ export const FOOTER_LINKS = [
 export const FOOTER_CONTACT_INFO = {
   title: 'Contact Us',
   links: [
-    { label: 'Phone', value: '+16466999732' },
+    { label: 'Phone', value: '+16463895945' },
     { label: 'WhatsApp', value: '+19174152083' },
 
     { label: 'Email', value: 'info@marwahtravelsumrah.com' },

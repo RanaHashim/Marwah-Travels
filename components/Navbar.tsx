@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <nav className=" flex sm:items-center sm:flex-row flex-col sm:gap-20 gap-5 bg-black/30 max-container padding-container relative z-30 py-5">
       <Link href="/">
-        <img src="/logo2.png" alt="logo" width={120} height={19} />
+        <img src="/logo2.png" alt="logo" width={100} height={19} />
         {/* <span className="text-white text-3xl font-bold">Marwah Travels</span> */}
       </Link>
       
