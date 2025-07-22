@@ -288,7 +288,7 @@ export function ReviewsTab() {
                 <h1 className="w-full text-center text-[16px] font-bold text-black mt-2">
                   {inquiry.user_name}
                 </h1>
-                <h1 className="w-full mb-3 text-center text-[15px] text-black mt-2">
+                <h1 className="w-full mb-3 text-center text-[15px] text-black mt-2" style="height: 150px;">
                   {inquiry.detail}
                 </h1>
                 <div className="rounded-full px-10 w-full text-center text-white mx-5  py-2 bg-red-600" onClick={()=>deleteBlog(inquiry)}>
